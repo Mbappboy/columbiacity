@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Columbia City</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img
+          src="https://www.image2url.com/r2/default/images/1789139238743-4b1b4ef8-2cf2-420f-b8af-ad976dcb725f.png"
+          alt="Columbia City logo"
+        />
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">Places ▾</button>
+
+          <div class="dropdown-content">
+            <a href="restaurants.html">Restaurants</a>
+            <a href="shops.html">Shops</a>
+            <a href="services.html">Services</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <h1>Columbia City</h1>
+      <p>Explore the neighborhood, local places, and community.</p>
+    </header>
+
+    <main>
+      <section class="station-section">
+        <div class="station-image-wrapper">
+          <img
+            class="station-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-MlU159V6LSj0pu7WpaiVJ9QH0VsKNfDXIYT4waIzIw&s=10"
+            alt="Columbia City Station in Seattle"
+          />
+        </div>
+
+        <p class="caption">Columbia City Station — Seattle, Washington</p>
+      </section>
+
+      <section class="content" id="front-page-intro">
+        <h2>Welcome to Columbia City</h2>
+
+        <p>
+          Columbia City is a hidden gem in Seattle's South End filled with
+          diversity and everything from a hundred-year-old library to a
+          one-of-a-kind farmer's market in the summer, Columbia City is the
+          place to go.
+        </p>
+      </section>
+      <footer>&copy; 2026 by Remy Handler.<br>All rights reserved.</footer>
+    </main>
+
+    <!-- Custom Right-Click Menu -->
+<div class="custom-context-menu" id="contextMenu">
+    <button data-action="home">Home</button>
+    <button data-action="back">Go Back</button>
+    <button data-action="forward">Go Forward</button>
+    <button data-action="reload">Reload</button>
+
+    <div class="context-divider"></div>
+
+    <button data-action="like">❤️ I really like this page</button>
+
+    <div class="context-divider"></div>
+
+    <button data-action="top">Back to Top</button>
+</div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
