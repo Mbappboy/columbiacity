@@ -318,3 +318,99 @@ footer {
   color: #DEDEDE;
   text-align: center;
 }
+#cafe-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#cafe-group > div {
+    padding: 15px;
+    background-color: maroon;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+#mexican-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#mexican-group > div {
+    padding: 15px;
+    background-color: orangered;
+}
+
+#italian-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: yellow;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#italian-group > div {
+    padding: 15px;
+    background-color: darkgoldenrod;
+}
+
+#thai-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#thai-group > div {
+    padding: 15px;
+    background-color: forestgreen;
+}
+
+#vietnamese-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: dodgerblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#vietnamese-group > div {
+    padding: 15px;
+    background-color: blue;
+}
+#indian-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: plum;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#indian-group > div {
+    padding: 15px;
+    background-color: hotpink;
+}
